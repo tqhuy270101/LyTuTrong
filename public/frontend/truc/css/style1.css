@@ -1,0 +1,121 @@
+
+ 
+  .calendar {
+    width: 300px;
+    height: 450px;
+    background-color:#ffdcffe1;
+    margin-top: 400px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  
+  .month {
+    width: 100%;
+    height: 80px;
+    background-color: #f5cfc6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .month .i {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .month .h1 {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .month .p {
+    font-size: 16px;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays .div {
+    font-size: 15px;
+    font-weight: 400;
+    /* letter-spacing: 0.1rem; */
+    width: calc(280px / 7);
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+  }
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .days div {
+    font-size: 15px;
+    margin: 3px;
+    width: calc(245px / 7);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    /* text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5); */
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(.today) {
+    background-color: #262626;
+    border: 2px solid #777;
+    cursor: pointer;
+  }
+  
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+  
+  .today {
+    background-color: #167e56;
+  }
+  .narbav-calendar{
+    border-style: groove;
+  }
+  .sukien-noibat{
+    padding: 10px;
+    margin-left: 20px;
+
+  }
+  .sukien-noibat-title{
+    margin-top: 30px;
+  }
+.link-sukien{
+  color: black;
+}
+.link-sukien:hover {
+  color: #FC9928;
+  text-decoration: none;
+}
+.img-lichsu{
+  position: relative;
+  float: right;
+  width: 30%;
+
+}
+.noidung-lichsu{
+  margin: 0px 50px;
+}

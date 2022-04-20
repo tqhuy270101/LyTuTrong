@@ -1,0 +1,122 @@
+.form-control.edit-tkb{
+    width: 170px;
+    font-size: 16px;
+}
+td {
+    padding: 20px 0px 20px 0px;
+}
+.form-control.edit-tkb-id{
+    width: 170px;
+    font-size: 16px;
+    background-color:white;
+    color:white;
+    border: 0
+}
+.form-edit{
+    position: relative;
+    z-index: 1000;
+    top: 20px;
+}
+.form-edit-chan{
+    position: relative;
+    z-index: 1000;
+    top: 20px;
+}
+.form-control.edit-tkb-id-chan{
+    width: 170px;
+    font-size: 16px;
+    color:#f3f5f6;
+    background-color: #f3f5f6;
+    border: 0
+}
+.form-control.date{
+    width: 200px;
+    font-size: 16px;
+}
+.title-insert-event{
+    margin-top: 50px;
+}
+.form-insert-event{
+    margin-top: 50px;
+}
+.text-insert-event{
+    font-size: 18px;
+}
+.img-lanhdao{
+    width: 60%;
+}
+.file-update-lanhdao{
+    background-color: white;
+    color: white;
+    position: relative;
+    z-index: -10;
+    top: 100px;
+    left: 120px;
+}
+.text-update-lanhdao{
+    font-size: 15px;
+}
+.text-title-update-lanhdao{
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.form-control.text-title-update-lanhdao[readonly] {
+    background-color: #d1f7ea;
+    border: none;
+    opacity: 1;
+    color: #0d704d;
+    font-weight: bold;
+}
+.img-lanhdao:hover {
+    opacity: 0.5;
+    transition: 0.6s;
+}
+.form-dang-tintuc{
+    width: 70%;
+    font-size: 18px;
+}
+.col-sm-3.text-dang-tintuc{
+    font-size: 18px;
+}
+.form-them-tailieu label{
+    font-size: 18px;
+}
+.form-them-tailieu select{
+    font-size: 18px;
+}
+.form-them-tailieu input{
+    font-size: 18px;
+    padding-top:10px;
+}
+.row.alert.alert-success.title{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.row.justify-content-center.form-update-hocsinh label{
+    font-size: 18px;
+}
+.row.justify-content-center.form-update-hocsinh input{
+    font-size: 18px;
+}
+.row.justify-content-center.form-update-hocsinh select{
+    font-size: 18px;
+}
+.row.justify-content-center.form-update-hocsinh button{
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px 15px 30px;
+}
+.custom-select.custom-select-sm.form-control.form-control-sm{
+    font-size: 16px;
+}
+.form-control.form-control-sm{
+    font-size: 18px;
+}
+.dataTables_info{
+    display: none;
+}
+.table-bordered.profile{
+    padding: 50px;
+}

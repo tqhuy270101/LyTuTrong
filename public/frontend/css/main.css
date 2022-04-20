@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+.pagination-tintuc{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color:#FC9928;
+    border-color: #FC9928;
+}
+.tintuc-noibat{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.tieude-link{
+    color: black;
+}
+
+.img-tintuc-noibat{
+    width: 50%;
+    image-rendering: pixelated;
+    position: relative;
+    float: left;
+    padding: 5px;
+}
+
+.hover-link:hover .img-tintuc-noibat{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.hover-link:hover .tieude-link{
+    text-decoration: none;
+    color: #FC9928;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.tieude-tintuc-chinh{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.soluoc-title-name{
+    font-family: 'Playfair Display', serif;
+    color: #c03b3b;
+    margin-top: -30px;
+	text-align: center;
+}
+.img-tintuc2{
+    width: 125px;
+    height: 232px;
+}
+.row.form-tracuudiem{
+    height: 300px;
+}
+.row.form-tracuudiem form{
+    margin: 100px 50px;  
+    
+}
